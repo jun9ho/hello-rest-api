@@ -13,7 +13,7 @@ public class HelloCtrl {
     @GetMapping("/hello")
     public Map<String, Object> hello() {
         return Map.of(
-                "message", "Hello, World!",
+                "message", "Hello, Jungho!",
                 "timestamp", System.currentTimeMillis(),
                 "koreaTime", ZonedDateTime.now(ZoneId.of("Asia/Seoul")).toString()
         );
