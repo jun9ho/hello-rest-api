@@ -65,3 +65,5 @@ $ sudo docker push datamario24/spring-rest-api:0.3.0
 
 $ sudo docker status
 ```
+
+test
