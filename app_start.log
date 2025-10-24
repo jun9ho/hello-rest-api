@@ -8,9 +8,7 @@
 
  :: Spring Boot ::                (v3.5.6)
 
-2025-10-12T12:04:23.618+09:00  INFO 239612 --- [demo] [           main] com.example.demo.DemoApplication         : Starting DemoApplication v0.0.1-SNAPSHOT using Java 17.0.16 with PID 239612 (/home/jungho/project/test/code/demo/app.jar started by jungho in /home/jungho/project/test/code/demo)
-2025-10-12T12:04:23.620+09:00  INFO 239612 --- [demo] [           main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
-2025-10-12T12:04:24.608+09:00  INFO 239612 --- [demo] [           main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080 (http)
-2025-10-12T12:04:24.627+09:00  INFO 239612 --- [demo] [           main] com.example.demo.DemoApplication         : Started DemoApplication in 1.35 seconds (process running for 1.742)
-2025-10-12T12:05:07.935+09:00  INFO 239612 --- [demo] [ionShutdownHook] o.s.b.w.embedded.netty.GracefulShutdown  : Commencing graceful shutdown. Waiting for active requests to complete
-2025-10-12T12:05:07.937+09:00  INFO 239612 --- [demo] [ netty-shutdown] o.s.b.w.embedded.netty.GracefulShutdown  : Graceful shutdown complete
+2025-10-17T10:04:54.830+09:00  INFO 24737 --- [demo] [           main] com.example.demo.DemoApplication         : Starting DemoApplication v0.4.0 using Java 17.0.16 with PID 24737 (/home/jungho/project/test/code/demo/app.jar started by jungho in /home/jungho/project/test/code/demo)
+2025-10-17T10:04:54.832+09:00  INFO 24737 --- [demo] [           main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T10:04:55.801+09:00  INFO 24737 --- [demo] [           main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080 (http)
+2025-10-17T10:04:55.818+09:00  INFO 24737 --- [demo] [           main] com.example.demo.DemoApplication         : Started DemoApplication in 1.347 seconds (process running for 1.763)
