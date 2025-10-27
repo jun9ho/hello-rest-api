@@ -50,12 +50,13 @@ jobs:
           host: ${{ secrets.AWS_EC2_HOST }}
           username: ${{ secrets.AWS_EC2_USER }}
           key: ${{ secrets.AWS_EC2_SSH_KEY }}
+          port: 22
           script: |
             set -e
             cd /home/ubuntu/code/dcompose/compose/spring_lb_ng_scg_eureka
 
             # .env의 태그를 새 커밋으로 교체
-            sed -i "s/^USER_TAG=.*/USER_TAG=${{ steps.meta.outputs.TAG }}/" .env
+            # sed -i "s/^USER_TAG=.*/USER_TAG=${{ steps.meta.outputs.TAG }}/" .env
             # (이미지 이름 고정이 아니라면 USER_IMAGE도 여기서 sed 가능)
 
             docker compose pull sc-user-svc
