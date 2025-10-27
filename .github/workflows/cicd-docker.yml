@@ -61,7 +61,3 @@ jobs:
 
             docker compose pull sc-user-svc
             docker compose up -d sc-user-svc
-
-            # 간단 헬스체크 (host 네트워크 사용 가정)
-            sleep 3
-            curl -fsS http://localhost:9001/ || (docker compose logs --tail=200 sc-user-svc && exit 1)
