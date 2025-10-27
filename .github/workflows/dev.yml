@@ -3,7 +3,7 @@ name: Java CI/CD with SCP to EC2
 on:
   push:
     branches:
-      - dev  # dev 브랜치에 push 될 때마다 실행
+      - de  # dev 브랜치에 push 될 때마다 실행
 
 jobs:
   build_and_deploy:
